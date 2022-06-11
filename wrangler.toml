@@ -3,6 +3,5 @@ type = "javascript"
 
 account_id = "8b57227121cdd9662c3fd10cadfed49d"
 workers_dev = true
-route = "ieee"
 zone_id = ""
 compatibility_date = "2022-06-03"

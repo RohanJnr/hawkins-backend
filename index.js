@@ -22,10 +22,10 @@ const problemStatementMap = {
 }
 
 const resourcesLinks = {
-  ps1: "https://drive.google.com/file/d/1zK5Uq2PNl9_kVWmotVMwbtBWalJwR-ee/view?usp=sharing",
-  Hdhsiendbd: "https://drive.google.com/file/d/1By83GDcZLjv1UaMZApJvNSiPfVQp36WT/view?usp=sharing",
-  Susndhdusie: "https://drive.google.com/file/d/1sVAE6e7cPKaDGZ2Pe4hZ4QFPmqbmY9pY/view?usp=sharing",
-  "7m3hduru3e": "https://drive.google.com/file/d/1WuPFu5LvT1Rchs5-3FSaHmyFYcQ6Ddb5/view?usp=sharing",
+  ps1: "https://drive.google.com/file/d/1779-QCue16Wt4ndGmxQ2ubrcQfSHVvFQ/view?usp=sharing",
+  Hdhsiendbd: "https://drive.google.com/file/d/161TXm-RYjMjaefgBau-WrKeHwMGa2B1s/view?usp=sharing",
+  Susndhdusie: "https://drive.google.com/file/d/1pOgZb5pAvwcHZzVHpjgR_TdbFoCW1j21/view?usp=sharing",
+  "7m3hduru3e": "https://drive.google.com/file/d/1MymjBgjPiSOLThfgLVPQ3nQ4Zhs25xX0/view?usp=sharing",
   "83bbeuri3lss": "https://drive.google.com/file/d/1LEQx7BS4-sANF459T8n7jGmL3aa6vBcp/view?usp=sharing"
 
 }
@@ -79,7 +79,6 @@ async function handleRequest(request, event) {
 
     errorRes.headers.set('Access-Control-Allow-Origin', "*");
 
-    event.waitUntil(triggerDiscordWebhook(name, code, false))
     return errorRes
   }
 
